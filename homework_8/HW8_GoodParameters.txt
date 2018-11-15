@@ -1,0 +1,18 @@
+Good TDNN setup.
+
+package hr.fer.zemris.optjava.dz8.util;
+
+public class Constants {
+
+	public static final int DATA_SIZE = 600;
+	public static final double MIN_INIT_VAL = -1;
+	public static final double MAX_INIT_VAL = 1;
+	public static final double MUTATE_CROSSOVER_PROBABILITY = 1;
+	public static final double F = 2; //Fe[0,2]
+	public static final double F_OSCILATIONS = 0.001; //Original: 0.001
+
+}
+
+
+src/data/laserGeneratedData.txt tdnn-8x10x1 20 0.001 1000
+src/data/laserGeneratedData.txt elman-1x5x4x1 20 0.001 1000
